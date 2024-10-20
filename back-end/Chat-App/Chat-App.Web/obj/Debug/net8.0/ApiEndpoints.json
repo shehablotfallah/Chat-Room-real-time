@@ -1,0 +1,124 @@
+[
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/Chat/delete-message/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Chat/get-messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "ReactToMessage",
+    "RelativePath": "api/Chat/react-message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reactionDto",
+        "Type": "Chat_App.Web.Core.Dtos.MessageReactionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "RemoveReaction",
+    "RelativePath": "api/Chat/remove-reaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reactionDto",
+        "Type": "Chat_App.Web.Core.Dtos.MessageReactionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chat/send-message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageDto",
+        "Type": "Chat_App.Web.Core.Dtos.MessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "StartTyping",
+    "RelativePath": "api/Chat/start-typing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typingEvent",
+        "Type": "Chat_App.Web.Core.Dtos.TypingEventDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "StopTyping",
+    "RelativePath": "api/Chat/stop-typing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typingEvent",
+        "Type": "Chat_App.Web.Core.Dtos.TypingEventDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Chat_App.Web.Controllers.ChatController",
+    "Method": "UpdateMessage",
+    "RelativePath": "api/Chat/update-message",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageUpdateDto",
+        "Type": "Chat_App.Web.Core.Dtos.MessageUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

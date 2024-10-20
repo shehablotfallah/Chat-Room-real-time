@@ -1,0 +1,317 @@
+/* إعدادات عامة */
+body {
+    background-color: #f4f7fa;
+    font-family: sans-serif,'Courier New', Courier, monospace;
+    line-height:normal;
+}
+
+/* تحديد حجم وشكل الحاوية */
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* إعدادات عامة للنصوص */
+h1, .welcome-message, .chat-title {
+    color: #007bff; /* لون النص */
+    font-size: 28px !important; /* حجم الخط */
+    font-weight: bold !important; /* سمك الخط */
+    text-align: center !important; /* توسيط النص */
+}
+
+.chat-title {
+    color: #ffffff !important; /* لون النص */
+}
+
+.welcome-message {
+    margin-bottom: 20px; /* مسافة أسفل الرسالة */
+}
+
+/* إدخال اسم المستخدم */
+.username-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* لضبط الارتفاع بالكامل */
+}
+
+.username-input {
+    background-color: #f8f9fa; /* خلفية فاتحة */
+    border: 1px solid #ccc; /* لون الحدود */
+    border-radius: 30px; /* زوايا مدورة */
+    padding: 20px; /* حشوة */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل */
+    text-align: center; /* توسيط النص */
+    width: 80%;
+}
+
+.username-input input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.username-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.username-input button:hover {
+    background-color: #0056b3;
+}
+
+/* ترويسة غرفة الشات */
+.chatroom-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+/* صندوق الدردشة */
+.chat-box {
+    flex-grow: 1;
+    background-color: #f8f9fa;
+    /*border: 1px solid #dee2e6;
+    border-radius: 0 0 10px 10px;*/
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden; /* منع الScroll الجانبي */
+}
+
+.message {
+    background-color: #e4eef7 !important;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: fit-content; /* حدد العرض على قد الرسالة */
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 3px !important;
+}
+
+.message span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* صورة المستخدم */
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.input-group {
+  display: flex;
+  position: relative;
+}
+
+.message-input {
+  width: 100%;
+  border-radius: 30px; /* تنسيق الزاوية اليسرى فقط */
+  padding-right: 50px; /* مساحة للأيقونة */
+  outline: none;
+  padding-left: 15px;
+  border: 1px solid #ccc; /* إضافة حدود */
+}
+
+.message-input:focus {
+  box-shadow: none; /* إلغاء ظل التركيز */
+  border-color: transparent;
+  border: 1px solid #ccc;
+  /* إلغاء تغير لون الحدود */
+}
+
+.send-btn {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff; /* لون الخلفية */
+  border: none;
+  border-radius: 50%; /* دائرة */
+  width: 50px; /* عرض الزر */
+  height: 50px; /* ارتفاع الزر */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* لون الأيقونة */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* ظل */
+  z-index: 1; /* اجعل الزر في المقدمة */
+}
+
+.send-btn i {
+  font-size: 20px;
+}
+
+.send-btn.disabled {
+  background-color: #ccc; /* لون الزر المعطل */
+  cursor: not-allowed; /* تغيير المؤشر */
+}
+
+
+  /* مؤشر الكتابة */
+  .typing-indicator {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .typing-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-right: 4px;
+    animation: typing 1s infinite;
+  }
+  
+  /* الأنيميشن للنقاط */
+  @keyframes typing {
+    0% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  
+  .typing-dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .typing-dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  /* التخصيص لأجهزة العرض الصغيرة */
+  @media (max-width: 576px) {
+    .chat-box {
+      height: 300px;
+    }
+  }   
+
+/* إعدادات للرسائل الخاصة بالمستخدم */
+.my-message {
+    color: #525252; /* لون النص */
+}
+
+/* وقت الرسالة */
+.message-time {
+    font-size: 0.8em;
+    color: gray;
+    text-align: right; /* توسيط الوقت */
+    margin-top: 3px;
+}
+
+/* خيارات التعديل والحذف */
+.message-options span {
+  font-size: 0.8em;
+}
+
+.action-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1px;
+}
+
+.actions-options {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.action-icon:hover + .actions-options {
+  display: block;
+}
+
+.actions-options:hover {
+  display: block;
+}
+
+.action span {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.reaction-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1px;
+}
+
+.reactions-options {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reaction-icon:hover + .reactions-options {
+  display: block;
+}
+
+.reactions-options:hover {
+  display: block;
+}
+
+.reaction span {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.reaction-display {
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.reaction-tooltip {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  color: #2284ff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 100;
+}
+
+.reaction-display:hover .reaction-tooltip {
+  display: block;
+}
+
+/* تعديل حجم الزر داخل الـ input */
+.input-group .btn {
+  height: 100%;
+}

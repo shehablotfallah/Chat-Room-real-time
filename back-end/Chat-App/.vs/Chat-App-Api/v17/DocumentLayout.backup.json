@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\repos\\C#\\Asp\\API\\Chat-App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4447D0A-3CE1-47C7-B918-5893400EE2A0}|Chat-App.Web\\Chat-App.Web.csproj|g:\\repos\\c#\\asp\\api\\chat-app\\chat-app.web\\globaluseings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4447D0A-3CE1-47C7-B918-5893400EE2A0}|Chat-App.Web\\Chat-App.Web.csproj|solutionrelative:chat-app.web\\globaluseings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4447D0A-3CE1-47C7-B918-5893400EE2A0}|Chat-App.Web\\Chat-App.Web.csproj|g:\\repos\\c#\\asp\\api\\chat-app\\chat-app.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4447D0A-3CE1-47C7-B918-5893400EE2A0}|Chat-App.Web\\Chat-App.Web.csproj|solutionrelative:chat-app.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalUseings.cs",
+              "DocumentMoniker": "G:\\repos\\C#\\Asp\\API\\Chat-App\\Chat-App.Web\\GlobalUseings.cs",
+              "RelativeDocumentMoniker": "Chat-App.Web\\GlobalUseings.cs",
+              "ToolTip": "G:\\repos\\C#\\Asp\\API\\Chat-App\\Chat-App.Web\\GlobalUseings.cs \u2B24",
+              "RelativeToolTip": "Chat-App.Web\\GlobalUseings.cs \u2B24",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:53:57.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\repos\\C#\\Asp\\API\\Chat-App\\Chat-App.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Chat-App.Web\\Program.cs",
+              "ToolTip": "G:\\repos\\C#\\Asp\\API\\Chat-App\\Chat-App.Web\\Program.cs \u2B24",
+              "RelativeToolTip": "Chat-App.Web\\Program.cs \u2B24",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:53:29.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
