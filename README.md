@@ -6,9 +6,9 @@ This is a real-time chat application that allows users to send messages, update 
 ### Welcome Chat Screenshot
 ![Chat Room Preview](https://github.com/user-attachments/assets/6bbd85fa-1670-4bcd-a2b5-0280340e103c)
 ### Conversation in Progress
-![Chat Room Preview UI](https://github.com/user-attachments/assets/cce46f08-dc5b-4abb-97b7-6a6aa587c80a)
+![Chat Room Preview UI](https://github.com/user-attachments/assets/ccda33b3-1d35-47c2-8422-8225e5fbfb1f)
 ### User Typing and Reactions
-![Chat Room Preview Typing](https://github.com/user-attachments/assets/ccda33b3-1d35-47c2-8422-8225e5fbfb1f)
+![Chat Room Preview Typing](https://github.com/user-attachments/assets/cce46f08-dc5b-4abb-97b7-6a6aa587c80a)
 
 
 
