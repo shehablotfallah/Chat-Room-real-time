@@ -178,4 +178,4 @@ If you'd like to contribute to this project, follow these steps:
 5. Open a pull request.
 
 ## **License**
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/shehablotfallah/Chat-Room-real-time/tree/master?tab=MIT-1-ov-file#).
