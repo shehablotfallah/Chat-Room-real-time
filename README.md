@@ -1,5 +1,5 @@
 
-# **Real-Time Chat Room Project**
+# **QuickTalk · Real-Time Chat Room**
 
 ## **Overview**
 This is a real-time chat application that allows users to send messages, update them, and react to them instantly. It is built with **ASP.NET Core API** for the backend and **Next.js** for the frontend. The app supports real-time communication using **PusherServer** for live message updates and reactions.
